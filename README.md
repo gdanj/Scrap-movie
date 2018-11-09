@@ -29,5 +29,3 @@
 </ul>
 <p>
 <br/>
-<h3>Voici mon<a href="https://twitter.com/Camilo42Es?lang=fr"> Twiiter</a><br/>
-Slack = @Camilo.ES <br/></h3>
