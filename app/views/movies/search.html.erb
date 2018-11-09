@@ -1,0 +1,13 @@
+
+<% if !@parp %>
+
+<% else %>
+  <% i=0 %>
+  <% @parp.each do |movie| %>
+    <%= image_tag "https://image.tmdb.org/t/p/w185_and_h278_bestv2#{movie.poster_path}", class: "card-img-top"%><br>
+    <%= movie.title %><br>
+    <%= movie.release_date %><br>
+    <% i+=1 %>
+    <% break if i == 20 %>
+  <% end %>
+<% end %>
