@@ -3,9 +3,8 @@ class HomeController < ApplicationController
   end
 
   def crypto
-    if Crypto.all.nil?
-    else
-      StartScrap.new.perform
+    if Crypto.first == nil 
+            StartScrap.new.perform
     end
   end
 
