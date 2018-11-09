@@ -12,7 +12,7 @@
 	<li><code> EDITOR="nano --wait" bin/rails credentials:edit</code></li>
 	<li><code> Tapez sur l'editeur de texte T_KEY: votre_key </code></li>
 	<li><code> rails s </code></li>
-	<li><code> Domain: <a href="https://app-saphyr.herokuapp.com/">Ici</a> </code></li>
+	<li><code> site: <a href="https://startscrap.herokuapp.com/">HEROKU</a> </code></li>
 </ul>
 <br/>
   <h2>Team</h2>
